@@ -50,3 +50,79 @@ font-weight: 600;
 /* font-weight: 160px; */
 padding: 21px 24px 21px 24px;
  }
+
+ /* banner style  */
+ .banner{
+   border: 2px solid;
+   border-radius: ;
+   height: 1395px;
+   width: 1150px;
+   margin-left: 33px;
+   margin-top: 155px;
+ }
+ .bannar-container{
+   /* border: 2px solid red; */
+   height: 1235px;
+   width: 946px;
+   margin-left: 97px;
+   margin-top: 80px ;
+ }
+ .div-one{
+   text-align: center;
+ }
+ /* shared style  */
+ .title{
+   font-size: 32px;
+   font-weight: 800;
+   color: rgb(13, 19, 33);
+ }
+ .title-describ{
+   color: rgb(13, 19, 33);
+/* font-family: Azeret Mono; */
+font-size: 16px;
+font-weight: 400;
+ }
+ .div-two{
+   display: flex;
+   gap: 120px;
+   /* justify-content: space-between; */
+   width: 946px;
+   height: 166px;
+   padding: 48px;
+   border-radius: 8px;
+   margin-top: 98px;
+   /* margin: 98px px; */
+   /* border:2px solid yellow ; */
+ }
+ .will-do{
+   color: rgba(13, 19, 33, 0.7);
+/* font-family: Azeret Mono; */
+font-size: 24px;
+font-weight: 700;
+ }
+ .div-three{
+   display: flex;
+   gap: 49px;
+   /* border: 2px solid blueviolet; */
+   padding: 48px;
+
+ }
+ .will-help{
+   color: rgba(13, 19, 33, 0.7);
+/* font-family: Azeret Mono; */
+font-size: 24px;
+font-weight: 700;
+ }
+ .ipsum{
+   color: rgb(13, 19, 33);
+/* font-family: Azeret Mono; */
+font-size: 16px;
+font-weight: 400;
+ }
+ .div-four{
+   display: flex;
+   gap: 150px;
+   /* border: 2px solid navajowhite; */
+   /* margin-top: 20px; */
+   padding: 48px;
+ }
