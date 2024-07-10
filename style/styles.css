@@ -91,6 +91,7 @@ font-weight: 400;
    padding: 48px;
    border-radius: 8px;
    margin-top: 98px;
+   margin-bottom: 10px;
    /* margin: 98px px; */
    /* border:2px solid yellow ; */
  }
@@ -105,7 +106,7 @@ font-weight: 700;
    gap: 49px;
    /* border: 2px solid blueviolet; */
    padding: 48px;
-
+margin-top: 40px;
  }
  .will-help{
    color: rgba(13, 19, 33, 0.7);
@@ -123,6 +124,21 @@ font-weight: 400;
    display: flex;
    gap: 150px;
    /* border: 2px solid navajowhite; */
-   /* margin-top: 20px; */
+   margin-top: 10px;
    padding: 48px;
+ }
+ .btn-two{
+  width: 171px;
+height: 47px;
+padding: 12px 20px 12px 20px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+font-size: 20px;
+font-weight: 600;
+color: rgb(13, 19, 33);
+ }
+ .video-section{
+  text-align: center;
  }
