@@ -167,7 +167,7 @@ color: rgb(13, 19, 33);
  .card-container{
   display: flex;
   gap: 20px;
-  flex-direction: row;
+  /* flex-direction: row; */
   margin-top: 40px;
  }
  .card-title{
@@ -177,6 +177,7 @@ color: rgb(13, 19, 33);
  .primary{
   width: 284px;
   height: 219px;
+  text-align: left;
   /* border: 2px solid blueviolet; */
   padding: 40px;
   background-color: rgba(255, 76, 30, 0.05);
@@ -184,6 +185,7 @@ color: rgb(13, 19, 33);
  .secondary{
   width: 284px;
   height: 219px;
+  text-align: left;
   /* border: 2px solid blueviolet; */
   padding: 40px;
   background-color: rgba(0, 76, 232, 0.05);
@@ -194,6 +196,56 @@ color: rgb(13, 19, 33);
   height: 219px;
   /* border: 2px solid blueviolet; */
   padding: 40px;
+  text-align: left;
+  /* justify-content: left; */
   background-color: rgba(255, 223, 0, 0.05);
+  margin-bottom: 40px;
 
  }
+.end-part{
+ width: 1130px;
+ height: 313px;
+margin-left: 32px;
+border: 2px solid rebeccapurple;
+background-image: url("../assets/handshake.jpg");
+text-align: center;
+background-size:1300px 430px ;
+}
+.foot-title{
+  /* width: 290px; */
+  height: 36px;
+  font-weight: 700;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+.foot-para{
+  /* width: 600px; */
+  height: 52px;
+  color: rgb(255, 255, 255);
+/* font-family: Azeret Mono; */
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+.foot-text{
+  width: 540px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.foot-submit{
+  height: 57px;
+  width: 120px;
+  border-radius: 8px;
+margin: 0px 10px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+/* font-family: Azeret Mono; */
+font-size: 20px;
+font-weight: 600;
+}
+  
