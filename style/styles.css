@@ -105,6 +105,9 @@ font-weight: 700;
    display: flex;
    gap: 49px;
    /* border: 2px solid blueviolet; */
+   border-radius: 16px;
+
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
    padding: 48px;
 margin-top: 40px;
  }
@@ -121,6 +124,9 @@ font-size: 16px;
 font-weight: 400;
  }
  .div-four{
+  border-radius: 16px;
+
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
    display: flex;
    gap: 150px;
    /* border: 2px solid navajowhite; */
@@ -139,6 +145,55 @@ font-size: 20px;
 font-weight: 600;
 color: rgb(13, 19, 33);
  }
- .video-section{
+ /* .video-section{ */
+  /* text-align: center; */
+  /* text-align: center; */
+ /* } */
+ .video-part{
   text-align: center;
+  width: 1140px;
+  height: 775px;
+  /* border: 2px solid red; */
+  margin: 32px;
+ }
+ .card-section{
+  width: 1140px;
+  height: 460px;
+  /* border: 2px solid tomato; */
+  margin-left: 32px;
+  text-align: center;
+  margin-top: 151px;
+ }
+ .card-container{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-top: 40px;
+ }
+ .card-title{
+  font-size: 24px;
+  font-weight: 800;
+ }
+ .primary{
+  width: 284px;
+  height: 219px;
+  /* border: 2px solid blueviolet; */
+  padding: 40px;
+  background-color: rgba(255, 76, 30, 0.05);
+ }
+ .secondary{
+  width: 284px;
+  height: 219px;
+  /* border: 2px solid blueviolet; */
+  padding: 40px;
+  background-color: rgba(0, 76, 232, 0.05);
+
+ }
+ .tersiary{
+  width: 284px;
+  height: 219px;
+  /* border: 2px solid blueviolet; */
+  padding: 40px;
+  background-color: rgba(255, 223, 0, 0.05);
+
  }
